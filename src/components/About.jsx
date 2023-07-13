@@ -31,35 +31,35 @@ function About() {
                         <div className='d-flex justify-content-evenly text-center skills_icons'>
                             <div>
                                 <TbBrandHtml5 className='rounded p-1 icons' />
-                                <p className='text-dark lh-lg'>HTML</p>
+                                <p className='text-dark lh-lg title'>HTML</p>
                             </div>
                             <div>
                                 <TbBrandCss3 className='rounded p-1 icons' />
-                                <p className='text-dark lh-lg'>CSS</p>
+                                <p className='text-dark lh-lg title'>CSS</p>
                             </div>
                             <div>
                                 <TbBrandJavascript className='rounded p-1 icons' />
-                                <p className='text-dark lh-lg'>Javascript</p>
+                                <p className='text-dark lh-lg title'>Javascript</p>
                             </div>
                             <div>
                                 <TbBrandBootstrap className='rounded p-1 icons' />
-                                <p className='text-dark lh-lg'>Bootstrap</p>
+                                <p className='text-dark lh-lg title'>Bootstrap</p>
                             </div>
                             <div>
                                 <FaReact className='rounded p-2 icons' />
-                                <p className='text-dark lh-lg'>React JS</p>
+                                <p className='text-dark lh-lg title'>React JS</p>
                             </div>
                             <div>
                                 <FaNodeJs className='rounded p-2 icons' />
-                                <p className='text-dark lh-lg'>Node JS</p>
+                                <p className='text-dark lh-lg title'>Node JS</p>
                             </div>
                             <div>
                                 <SiExpress className='rounded p-2 icons' />
-                                <p className='text-dark lh-lg'>Express JS</p>
+                                <p className='text-dark lh-lg title'>Express JS</p>
                             </div>
                             <div>
                                 <TbBrandMongodb className='rounded p-2 icons' />
-                                <p className='text-dark lh-lg'>MongoDB</p>
+                                <p className='text-dark lh-lg title'>MongoDB</p>
                             </div>
                         </div>
                         {/* <div className='d-flex justify-content- skills_icons text-danger'>

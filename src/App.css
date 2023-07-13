@@ -266,7 +266,12 @@ h1 {
 
   .skills_icons {
     padding: 0;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  .title {
+    font-size: .35rem;
   }
 
   p {
