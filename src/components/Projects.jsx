@@ -1,12 +1,20 @@
 import React from 'react'
 import netflix from '../assets/images/Netflix_clone_kk.png'
 import todo from '../assets/images/TodoApp.jpg'
+import portfolio from "../assets/images/portfolio.jpg"
 
 function Projects() {
     const projects = [
         {
+            title: "Portfolio",
+            description: "A Personal portfolio nothing special, Integreted Email JS to send Email Via Forms  ",
+            git: "https://github.com/kumghato/portfolio",
+            image: portfolio,
+            live: "https://kumghatokhala.netlify.app"
+        },
+        {
             title: "Netflix Clone",
-            description: "Front-end Netflix clone using React JS, pure CSS and the entire Backend is made using Node.js, Express.Js and MongoDB for Database.",
+            description: "Front-end Netflix clone using React JS, pure CSS and the entire Backend is made using Node.js, Express.Js and MongoDB for Database. It actually does nothing but simple CRUD operation, Database integretion etc. Don't expect it to play videos",
             git: "https://github.com/kumghato/movie_app",
             image: netflix,
             live: ""
@@ -23,7 +31,7 @@ function Projects() {
     return (
         <>
             <div className='Project_header'>
-                <h1 className='headers_big font_color text-center p-5 fw-bold'>From the <em>brain </em>to your <em>screen</em></h1>
+                <h1 className='headers_big font_color text-center p-5 fw-bold'><em>Projects</em></h1>
             </div>
             {projects.map((item) => {
                 return (
@@ -42,7 +50,7 @@ function Projects() {
                             <div className='d-flex me-auto mt-5'>
                                 <a href={item.git} target='_blank' className='btn_custom px-5 py-2 d-flex align-items-center me-4 justify-content-center'>
                                     <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                                <a href='https://www.github.com' target='_blank' className='btn_custom px-5 py-2 d-flex align-items-center ms-4 justify-content-center'>
+                                <a href={item.live} target='_blank' className='btn_custom px-5 py-2 d-flex align-items-center ms-4 justify-content-center'>
                                     Live</a>
                             </div>
                         </div>
