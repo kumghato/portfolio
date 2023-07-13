@@ -40,21 +40,7 @@ function About() {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div className='container_about p-3 my-5 form'>
-                        <h1 className='headers text-center mb-5'>Skills Acquired</h1>
-                        <div className='d-flex justify-content-evenly skills_icons'>
-                            <TbBrandHtml5 className='rounded p-1 icons' />
-                            <TbBrandCss3 className='rounded p-1 icons' />
-                            <TbBrandJavascript className='rounded p-1 icons' />
-                            <TbBrandBootstrap className='rounded p-1 icons' />
-                            <FaReact className='rounded p-2 icons' />
-                            <FaNodeJs className='rounded p-2 icons' />
-                            <SiExpress className='rounded p-2 icons' />
-                            <TbBrandMongodb className='rounded p-2 icons' />
-                        </div>
-                    </div>
-                </section>
+
             </div>
         </>
     )
